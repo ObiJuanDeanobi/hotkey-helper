@@ -1,0 +1,18 @@
+# Build output
+/build/
+/cmake-build-*/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local inventories and settings
+/hotkey-helper-inventory.json
+/.vscode/
+/.idea/
+
+# Packaging output
+*.pkg.tar.*
+/pkg/
+/src/
