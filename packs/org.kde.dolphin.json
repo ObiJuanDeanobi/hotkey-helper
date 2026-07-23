@@ -1,0 +1,174 @@
+{
+  "$schema": "../schema/hotkey-pack-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "org.kde.dolphin",
+  "name": "Dolphin",
+  "version": "1.0.0",
+  "description": "Common default shortcuts for the KDE Dolphin file manager.",
+  "license": "CC0-1.0",
+  "match": {
+    "desktopIds": [
+      "org.kde.dolphin"
+    ],
+    "windowClasses": [
+      "dolphin"
+    ]
+  },
+  "metadata": {
+    "homepage": "https://apps.kde.org/dolphin/",
+    "sources": [
+      {
+        "id": "kde-command-reference",
+        "title": "Dolphin Handbook: Command Reference",
+        "url": "https://docs.kde.org/stable_kf6/en/dolphin/dolphin/command-reference.html",
+        "verifiedAt": "2026-07-23",
+        "applicationVersion": "KDE Frameworks 6 stable documentation"
+      },
+      {
+        "id": "kde-using-dolphin",
+        "title": "Dolphin Handbook: Using Dolphin",
+        "url": "https://docs.kde.org/stable_kf6/en/dolphin/dolphin/using-dolphin.html",
+        "verifiedAt": "2026-07-23",
+        "applicationVersion": "KDE Frameworks 6 stable documentation"
+      }
+    ]
+  },
+  "shortcuts": [
+    {
+      "id": "new-window",
+      "action": "New Window",
+      "keys": [
+        "Ctrl+N"
+      ],
+      "category": "Windows and Tabs",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "new-tab",
+      "action": "New Tab",
+      "keys": [
+        "Ctrl+T"
+      ],
+      "category": "Windows and Tabs",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "close-tab",
+      "action": "Close Tab",
+      "keys": [
+        "Ctrl+W"
+      ],
+      "category": "Windows and Tabs",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "undo-close-tab",
+      "action": "Undo Close Tab",
+      "keys": [
+        "Ctrl+Shift+T"
+      ],
+      "category": "Windows and Tabs",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "rename",
+      "action": "Rename",
+      "keys": [
+        "F2"
+      ],
+      "category": "Files",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "move-to-trash",
+      "action": "Move to Trash",
+      "keys": [
+        "Delete"
+      ],
+      "category": "Files",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "delete-permanently",
+      "action": "Delete Permanently",
+      "keys": [
+        "Shift+Delete"
+      ],
+      "category": "Files",
+      "sourceId": "kde-command-reference",
+      "notes": "This bypasses the trash and cannot be undone from Dolphin."
+    },
+    {
+      "id": "properties",
+      "action": "Properties",
+      "keys": [
+        "Alt+Return"
+      ],
+      "category": "Files",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "search",
+      "action": "Search",
+      "keys": [
+        "Ctrl+F"
+      ],
+      "category": "Find and Select",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "select-all",
+      "action": "Select All",
+      "keys": [
+        "Ctrl+A"
+      ],
+      "category": "Find and Select",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "show-hidden-files",
+      "action": "Show Hidden Files",
+      "keys": [
+        "Ctrl+H"
+      ],
+      "category": "View",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "zoom-in",
+      "action": "Zoom In",
+      "keys": [
+        "Ctrl++"
+      ],
+      "category": "View",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "zoom-out",
+      "action": "Zoom Out",
+      "keys": [
+        "Ctrl+-"
+      ],
+      "category": "View",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "zoom-reset",
+      "action": "Reset Zoom",
+      "keys": [
+        "Ctrl+0"
+      ],
+      "category": "View",
+      "sourceId": "kde-command-reference"
+    },
+    {
+      "id": "toggle-menubar",
+      "action": "Show or Hide Menubar",
+      "keys": [
+        "Ctrl+M"
+      ],
+      "category": "View",
+      "sourceId": "kde-using-dolphin"
+    }
+  ]
+}
