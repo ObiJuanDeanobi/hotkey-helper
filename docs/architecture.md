@@ -211,23 +211,29 @@ conceptual pack contains:
   "schemaVersion": 1,
   "id": "org.kde.dolphin",
   "name": "Dolphin",
-  "packVersion": "1.0.0",
+  "version": "1.0.0",
   "match": {
-    "desktopFileIds": ["org.kde.dolphin"],
+    "desktopIds": ["org.kde.dolphin"],
     "windowClasses": ["dolphin"]
   },
-  "sources": [
-    {
-      "url": "https://docs.kde.org/",
-      "verifiedFor": "Dolphin version documented by the pack"
-    }
-  ],
+  "metadata": {
+    "homepage": "https://apps.kde.org/dolphin/",
+    "sources": [
+      {
+        "id": "official-docs",
+        "title": "Dolphin Handbook",
+        "url": "https://docs.kde.org/",
+        "verifiedAt": "2026-07-23"
+      }
+    ]
+  },
   "shortcuts": [
     {
       "id": "new-tab",
       "action": "New Tab",
       "keys": ["Ctrl+T"],
-      "category": "Tabs"
+      "category": "Tabs",
+      "sourceId": "official-docs"
     }
   ]
 }
@@ -318,8 +324,8 @@ These are technical spikes, not unresolved product decisions:
   consistently across the target multi-monitor configurations.
 - The exact KDE Frameworks components used for the global shortcut and status
   notifier.
-- The final open-source license and repository governance files before public
-  release.
+- The lightweight repository governance files needed as the contributor
+  community grows.
 
 Each spike should preserve the interfaces described above even if its concrete
 library changes.

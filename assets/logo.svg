@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Hotkey Helper logo</title>
+  <desc id="desc">A keyboard key connected to a contextual sidebar.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25b9ff"/>
+      <stop offset="1" stop-color="#7357ff"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172640"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="29" fill="#07111f"/>
+  <rect x="15" y="21" width="76" height="86" rx="18" fill="url(#key)" stroke="#2da8ff" stroke-width="3"/>
+  <path d="M35 43v42M68 43v42M35 64h33" fill="none" stroke="#e8f5ff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M92 51h7" stroke="#2da8ff" stroke-width="4" stroke-linecap="round"/>
+  <rect x="99" y="15" width="15" height="98" rx="7.5" fill="url(#panel)"/>
+  <circle cx="106.5" cy="34" r="2.5" fill="#eaf8ff"/>
+  <circle cx="106.5" cy="48" r="2.5" fill="#eaf8ff" opacity=".8"/>
+  <circle cx="106.5" cy="62" r="2.5" fill="#eaf8ff" opacity=".6"/>
+</svg>

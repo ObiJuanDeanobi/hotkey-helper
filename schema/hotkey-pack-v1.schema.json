@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/hotkey-helper/hotkey-helper/blob/main/schema/hotkey-pack-v1.schema.json",
+  "$id": "https://github.com/ObiJuanDeanobi/hotkey-helper/blob/main/schema/hotkey-pack-v1.schema.json",
   "title": "Hotkey Helper Pack",
   "description": "A data-only, human-editable collection of keyboard shortcuts for one application.",
   "type": "object",
